@@ -1,25 +1,25 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Tab2.css';
+import GitComp from '../components/GitComp';
+import './Git.css';
 
-const Tab2: React.FC = () => {
+const Git: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <IonTitle>Tab 2</IonTitle>
+        <IonToolbar color={"primary"}>
+          <IonTitle>Git & Tabs: Git</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 2</IonTitle>
+            <IonTitle size="large"> Git & Tabs: Git</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 2 page" />
+        <GitComp name="Git & Tabs: Git" />
       </IonContent>
     </IonPage>
   );
 };
 
-export default Tab2;
+export default Git;
