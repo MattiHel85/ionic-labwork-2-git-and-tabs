@@ -1,0 +1,7 @@
+{
+  "name": "git_and_tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
